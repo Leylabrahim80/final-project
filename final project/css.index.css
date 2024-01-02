@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink; /* Your unique background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #045D5D; /* Red color for the header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#courseForm {
+    width: 40%;
+}
+
+#studentSection {
+    width: 55%;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #008080;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.course-container {
+    background-color: bleu;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-form {
+    margin-bottom: 20px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #008080;
+    color: #fff;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #008080; /* Teal color for the navigation bar */
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: red; /* Red color on hover */
+    color: black;
+}
+
+footer {
+    background-color: #045D5D; /* Red color for the header */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
